@@ -1,0 +1,58 @@
+.carousel-inner {
+  height: 70vh;
+}
+
+.card {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.circle {
+  /* background: ; */
+  width: 70px;
+  height: 70px;
+  border-radius: 1000px;
+}
+
+.social-border {
+  border: 1px solid #dad7d7;
+  border-radius: 5px;
+}
+
+.green {
+  background: #60DD22;
+}
+
+.grey {
+  background:  #999999;
+}
+
+.modal-dialog {
+    width: 1000px;
+}
+
+
+.modal-content, .modal-footer {
+  border: none;
+}
+
+#left {
+  border-right: 1px solid #dad7d7;
+}
+
+.list-group-item {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+#newsletter {
+  background: rgb(219, 219, 219);
+  box-shadow: 1px 1px 3px 0 rgba(0,0,0,.3);
+}
+
+.thmbnail {
+  height: 50px;
+  width: 50px;
+  border-radius: 1000px;
+}
