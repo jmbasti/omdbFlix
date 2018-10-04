@@ -30,7 +30,7 @@ function defaultMovies() {
 
   let defaultMovie = 'love';
 
-  axios.get(`http://www.omdbapi.com/?s=${defaultMovie}&apikey=7be259d3`)
+  axios.get(`//www.omdbapi.com/?s=${defaultMovie}&apikey=7be259d3`)
   .then(response => {
       
       let movies = response.data.Search;
@@ -48,7 +48,7 @@ function defaultMovies() {
 
 //GET MOVIES
 function getMovies(search) {
-  axios.get(`http://www.omdbapi.com?s=${search}&apikey=7be259d3`)
+  axios.get(`//www.omdbapi.com?s=${search}&apikey=7be259d3`)
   .then(response => {
     
     let movies = response.data.Search;
@@ -65,7 +65,7 @@ function getMovies(search) {
 
 //GET MOVIE DETAILS
 function getMovieDetails(movieId) {
-  axios.get(`http://www.omdbapi.com?i=${movieId}&apikey=7be259d3`)
+  axios.get(`//www.omdbapi.com?i=${movieId}&apikey=7be259d3`)
   .then(response => {
     
     let movieData = response.data;
